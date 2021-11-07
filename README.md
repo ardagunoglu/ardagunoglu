@@ -10,7 +10,7 @@ I am a person who has been intertwined with computers, electronics and software 
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=ardagunoglu&show_icons=true)  
 
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=ardagunoglu)  
+![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=ardagunoglu&theme=github)  
 
 ![Profile views](https://gpvc.arturio.dev/ardagunoglu)  
 
