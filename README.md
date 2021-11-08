@@ -1,4 +1,4 @@
-### **Hi there 👋, I'm Arda**
+# **Hi there 👋, I'm Arda**
 I am a person who has been intertwined with computers, electronics and software since I was 10 years old. Therefore, considering that I am open to these fields, I decided to do something about computers and then, I started studying at Yeditepe University Computer Science and Engineering department. I am currently freshman in University. I try to learn everything in this field as much as I can.
 
 
