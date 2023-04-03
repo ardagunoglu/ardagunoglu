@@ -1,5 +1,5 @@
 # **Hi there 👋, I'm Arda**
-**I am a student who has been intertwined with computers, electronics and software since I was 10 years old. My connection with technology pushed me to join this field and develop myself as a Computer Scientist.** 
+**I am a student who has been intertwined with computers, electronics and software since I was 8 years old. My connection with technology pushed me to join this field and develop myself as a Computer Scientist.** 
   
 I study at Yeditepe University Computer Science and Engineering department. I am currently a freshman in University.  
   
