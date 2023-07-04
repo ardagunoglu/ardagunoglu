@@ -12,7 +12,7 @@ __I try to learn different skills in this field as much as I can.__
 ##
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ardagunoglu)](https://github.com/anuraghazra/github-readme-stats)
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=ardagunoglu&show_icons=true)  
+#![GitHub stats](https://github-readme-stats.vercel.app/api?username=ardagunoglu&show_icons=true)  
 
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=ardagunoglu&theme=github)  
 
