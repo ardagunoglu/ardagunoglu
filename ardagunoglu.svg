@@ -1,0 +1,176 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 980" role="img" aria-labelledby="title desc">
+  <title id="title">Kadir Arda Günoğlu GitHub Terminal Profile</title>
+  <desc id="desc">GitHub profile introduction card.</desc>
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#071018"/>
+      <stop offset="100%" stop-color="#020609"/>
+    </linearGradient>
+
+    <linearGradient id="headerGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#17212b"/>
+      <stop offset="100%" stop-color="#101820"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.55"/>
+    </filter>
+
+    <filter id="greenGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#7CFF6B" stroke-opacity="0.045" stroke-width="1"/>
+      <circle cx="1" cy="1" r="1" fill="#7CFF6B" fill-opacity="0.08"/>
+    </pattern>
+
+    <style>
+      .mono {
+        font-family: "JetBrains Mono", "Fira Code", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      }
+      .label {
+        fill: #80ff72;
+        font-weight: 600;
+      }
+      .value {
+        fill: #e9f1f7;
+      }
+      .cyan {
+        fill: #61dafb;
+      }
+      .muted {
+        fill: #7cb6ad;
+      }
+      .small {
+        font-size: 18px;
+      }
+      .body {
+        font-size: 22px;
+      }
+      .prompt {
+        font-size: 24px;
+        font-weight: 700;
+      }
+      .cursor {
+        animation: blink 1s steps(1, end) infinite;
+      }
+      @keyframes blink {
+        0%, 48% { opacity: 1; }
+        49%, 100% { opacity: 0; }
+      }
+    </style>
+  </defs>
+
+  <!-- Page background -->
+  <rect width="1200" height="940" fill="#02070b"/>
+
+  <!-- Soft green glow -->
+  <ellipse cx="600" cy="668" rx="470" ry="32" fill="#7CFF6B" opacity="0.08" filter="url(#greenGlow)"/>
+
+  <!-- Terminal window -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="32" width="1120" height="880" rx="26" fill="url(#bgGradient)" stroke="#53646f" stroke-width="2"/>
+    <rect x="40" y="32" width="1120" height="56" rx="26" fill="url(#headerGradient)"/>
+    <rect x="40" y="62" width="1120" height="26" fill="url(#headerGradient)"/>
+    <line x1="40" y1="88" x2="1160" y2="88" stroke="#4e5b64" stroke-width="1"/>
+
+    <!-- Window buttons -->
+    <circle cx="75" cy="60" r="9" fill="#ff5f56"/>
+    <circle cx="105" cy="60" r="9" fill="#ffbd2e"/>
+    <circle cx="135" cy="60" r="9" fill="#27c93f"/>
+
+    <!-- Background grid accents -->
+    <rect x="860" y="110" width="260" height="170" fill="url(#grid)" opacity="0.75"/>
+    <rect x="920" y="460" width="200" height="150" fill="url(#grid)" opacity="0.55"/>
+
+    <!-- Left rail -->
+    <line x1="90" y1="166" x2="90" y2="840" stroke="#7CFF6B" stroke-opacity="0.22" stroke-width="2" stroke-dasharray="7 9"/>
+    <circle cx="90" cy="230" r="4" fill="#7CFF6B" opacity="0.6"/>
+    <circle cx="90" cy="455" r="4" fill="#7CFF6B" opacity="0.6"/>
+    <circle cx="90" cy="628" r="4" fill="#7CFF6B" opacity="0.6"/>
+    <circle cx="90" cy="790" r="4" fill="#7CFF6B" opacity="0.6"/>
+
+    <!-- Small rail icons -->
+    <g transform="translate(68 150)">
+      <rect width="44" height="44" rx="10" fill="#0d171d" stroke="#7CFF6B" stroke-opacity="0.35"/>
+      <text x="22" y="29" text-anchor="middle" class="mono label" font-size="22">&gt;_</text>
+    </g>
+
+    <g transform="translate(68 380)">
+      <rect width="44" height="44" rx="10" fill="#0d171d" stroke="#7CFF6B" stroke-opacity="0.35"/>
+      <circle cx="22" cy="16" r="6" fill="none" stroke="#7CFF6B" stroke-width="2"/>
+      <path d="M11 34c2-8 20-8 22 0" fill="none" stroke="#7CFF6B" stroke-width="2" stroke-linecap="round"/>
+    </g>
+
+    <g transform="translate(68 555)">
+      <rect width="44" height="44" rx="10" fill="#0d171d" stroke="#7CFF6B" stroke-opacity="0.35"/>
+      <text x="22" y="29" text-anchor="middle" class="mono label" font-size="18">&lt;/&gt;</text>
+    </g>
+
+    <g transform="translate(68 700)">
+      <rect width="44" height="44" rx="10" fill="#0d171d" stroke="#7CFF6B" stroke-opacity="0.35"/>
+      <text x="22" y="29" text-anchor="middle" class="mono label" font-size="18">&lt;/&gt;</text>
+    </g>
+
+    <!-- Main content -->
+    <g class="mono">
+      <!-- Command -->
+      <text x="145" y="138" class="prompt label">arda@github:~$</text>
+      <text x="365" y="138" class="prompt cyan">./intro</text>
+
+      <!-- Boot -->
+      <text x="145" y="182" class="body muted">[booting profile...]</text>
+
+      <!-- Profile -->
+      <text x="145" y="228" class="body label">name:</text>
+      <text x="265" y="228" class="body value">Kadir Arda Günoğlu</text>
+
+      <text x="145" y="260" class="body label">username:</text>
+      <text x="265" y="260" class="body value">ardagunoglu</text>
+
+      <text x="145" y="292" class="body label">location:</text>
+      <text x="265" y="292" class="body value">Istanbul, Turkey</text>
+
+      <text x="145" y="324" class="body label">website:</text>
+      <a href="https://ardagunoglu.com" target="_blank">
+      <text x="265" y="324" class="body cyan">ardagunoglu.com</text>
+      </a>
+
+      <text x="145" y="356" class="body label">linkedin:</text>
+      <a href="https://linkedin.com/in/kadir-arda-gunoglu" target="_blank">
+      <text x="265" y="356" class="body cyan">linkedin.com/in/kadir-arda-gunoglu</text>
+      </a>
+
+      <!-- About -->
+      <text x="145" y="410" class="body label">about_me() {</text>
+      <text x="185" y="444" class="body value">Computer Science &amp; Engineering graduate</text>
+      <text x="185" y="476" class="body value">Backend focused software engineer.</text>
+      <text x="185" y="508" class="body value">Building systems, adheres to clean code principles, and real world products.</text>
+      <text x="145" y="540" class="body label">}</text>
+
+      <!-- Stack -->
+      <text x="145" y="584" class="body label">stack = [</text>
+      <text x="185" y="614" class="small value">Java, C++, Go, Rust, JavaScript</text>
+      <text x="185" y="644" class="small value">Spring, Node.js, React, Next.js, PostgreSQL, MongoDB</text>
+      <text x="185" y="674" class="small value">Docker, Linux, Git, Redis</text>
+      <text x="145" y="704" class="body label">]</text>
+
+      <!-- Focus -->
+      <text x="145" y="744" class="body label">current_focus:</text>
+      <text x="185" y="774" class="body value">backend systems &amp; developer tooling</text>
+
+      <text x="145" y="804" class="body label">status:</text>
+      <text x="185" y="834" class="body value">always learning</text>
+
+      <!-- Prompt -->
+      <text x="145" y="880" class="prompt label">arda@github:~$</text>
+      <rect x="340" y="861" width="13" height="24" rx="2" fill="#80ff72" class="cursor"/>
+    </g>
+  </g>
+</svg>
