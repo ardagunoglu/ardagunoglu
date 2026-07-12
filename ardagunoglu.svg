@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="940" viewBox="0 0 1200 940" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1160" height="920" viewBox="20 12 1160 920" role="img" aria-labelledby="title desc">
   <title id="title">Kadir Arda Günoğlu GitHub Terminal Profile</title>
   <desc id="desc">GitHub profile introduction card.</desc>
 
@@ -68,7 +68,7 @@
   </defs>
 
   <!-- Page background -->
-  <rect width="1200" height="940" fill="#02070b"/>
+  <!-- <rect width="1200" height="940" fill="#02070b"/> -->
 
   <!-- Soft green glow -->
   <ellipse cx="600" cy="668" rx="470" ry="32" fill="#7CFF6B" opacity="0.08" filter="url(#greenGlow)"/>
