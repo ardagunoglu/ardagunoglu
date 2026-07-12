@@ -1,9 +1,6 @@
-# **Hi there 👋, I'm Arda**
-**I am a recent Computer Science and Engineering graduate focused on writing clean, maintainable code and building scalable, sustainable systems. My interests include system design, high-priority architectures, data security, low-level development, operating systems, microservices, and primarily backend engineering while comfortably contributing to frontend when needed. I strive to design well-structured software that is both robust in production and clear in implementation.** 
-  
-I graduated from Yeditepe University Computer Science and Engineering department.  
-  
-__I try to learn different skills in this field as much as I can.__  
+<p align="center">
+  <img src="./ardagunoglu.svg" alt="Kadir Günoğlu Terminal Profile" width="100%" />
+</p>
 
 
 
